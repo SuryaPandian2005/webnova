@@ -1,0 +1,50 @@
+import './globals.css';
+import { Inter } from 'next/font/google';
+import { Toaster } from 'react-hot-toast';
+import Navbar from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+
+export const metadata = {
+  title: 'WebNova ',
+  description: 'We design and develop high-quality websites for businesses, startups, portfolios, and online stores with modern UI/UX and responsive performance.',
+  keywords: 'website builder, AI website, web development, portfolio, ecommerce, SaaS',
+  icons: {
+  icon: '/logo.png',
+   },
+  openGraph: {
+    title: 'WebNova — Professional Website Development Platform',
+    description: 'Create stunning, professional websites for your business and portfolio',
+    type: 'website',
+  },
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en" className={inter.variable}>
+      <body>
+        <Navbar />
+        <main className="min-h-screen">{children}</main>
+        <Footer />
+        <Toaster
+          position="top-right"
+          toastOptions={{
+            duration: 4000,
+            style: {
+              background: 'rgba(15, 23, 42, 0.95)',
+              color: '#e2e8f0',
+              border: '1px solid rgba(99, 102, 241, 0.3)',
+              backdropFilter: 'blur(12px)',
+              borderRadius: '12px',
+              padding: '12px 16px',
+              fontSize: '14px',
+            },
+            success: { iconTheme: { primary: '#10b981', secondary: '#022c22' } },
+            error: { iconTheme: { primary: '#ef4444', secondary: '#450a0a' } },
+          }}
+        />
+      </body>
+    </html>
+  );
+}
