@@ -57,7 +57,7 @@ export default function Navbar() {
               </div>
               <div className="absolute -inset-1 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl opacity-0 group-hover:opacity-20 blur transition-opacity duration-300" />
             </div>
-            <span className="text-xl font-bold gradient-text">WebNova</span>
+            <span className="text-xl font-bold gradient-text">TechKidyy</span>
           </Link>
 
           {/* Desktop Nav */}

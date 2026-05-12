@@ -34,7 +34,7 @@ const STATS = [
 ];
 
 const TESTIMONIALS = [
-  { name: 'Sarah Chen', role: 'Founder, DesignFlow', avatar: 'SC', text: 'WebNova transformed how I present my work. The portfolio template is stunning and the team delivered exactly what I envisioned.', rating: 5 },
+  { name: 'Sarah Chen', role: 'Founder, DesignFlow', avatar: 'SC', text: 'TechKidyy transformed how I present my work. The portfolio template is stunning and the team delivered exactly what I envisioned.', rating: 5 },
   { name: 'Marcus Johnson', role: 'CEO, TechVentures', avatar: 'MJ', text: 'Our SaaS landing page conversion rate jumped 180% after switching to . The analytics integration is seamless.', rating: 5 },
   { name: 'Priya Sharma', role: 'Restaurant Owner', avatar: 'PS', text: 'The restaurant template had our online orders up 3x in the first week. Worth every penny and the support is incredible.', rating: 5 },
 ];
@@ -373,7 +373,7 @@ export default function HomePage() {
               Ready to <span className="gradient-text">Build?</span>
             </h2>
             <p className="text-gray-400 text-lg mb-8">
-              Join 12,000+ businesses who launched with WebNova.
+              Join 1+ businesses who launched with TechKidyy.
               Start your project today — free to get started.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -128,7 +128,7 @@ useEffect(() => {
           <div className="inline-flex items-center gap-2 glass px-4 py-2 rounded-full border border-indigo-500/20 mb-5">
             <Sparkles className="w-4 h-4 text-indigo-400" />
             <span className="text-sm text-gray-300">
-              WebNova Showcase Manager
+              TechKidyy Showcase Manager
             </span>
           </div>
 

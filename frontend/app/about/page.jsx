@@ -79,7 +79,7 @@ export default function AboutPage() {
         <div className="mb-20">
           <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-center mb-12">
             <h2 className="text-3xl font-bold text-white mb-3">Meet the <span className="gradient-text">Team</span></h2>
-            <p className="text-gray-400">The people behind WebNova</p>
+            <p className="text-gray-400">The people behind TechKidyy</p>
           </motion.div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {TEAM.map(({ name, role, avatar, bio }, i) => (
@@ -101,7 +101,7 @@ export default function AboutPage() {
             <Zap className="w-7 h-7 text-white" />
           </div>
           <h2 className="text-3xl font-bold text-white mb-3">Ready to Start?</h2>
-          <p className="text-gray-400 mb-6 max-w-lg mx-auto">Join thousands of businesses who chose WebNova to build their online presence.</p>
+          <p className="text-gray-400 mb-6 max-w-lg mx-auto">Join thousands of businesses who chose TechKidyy to build their online presence.</p>
           <Link href="/register" className="btn-primary text-white inline-flex items-center gap-2">
             Get Started Free <ArrowRight className="w-4 h-4" />
           </Link>

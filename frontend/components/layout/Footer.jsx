@@ -38,7 +38,7 @@ export default function Footer() {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
                 <Zap className="w-4 h-4 text-white" />
               </div>
-              <span className="text-lg font-bold gradient-text">WebNova</span>
+              <span className="text-lg font-bold gradient-text">TechKidyy</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               AI-powered website builder platform for modern businesses.
@@ -72,8 +72,8 @@ export default function Footer() {
           ))}
         </div>
         <div className="border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-gray-500 text-sm">© {new Date().getFullYear()} WebNova. All rights reserved.</p>
-          <p className="text-gray-600 text-xs">Built with Next.js, Tailwind CSS & Framer Motion</p>
+          <p className="text-gray-500 text-sm">© {new Date().getFullYear()} TechKidyy. All rights reserved.</p>
+          <p className="text-gray-600 text-xs">Built with soul</p>
         </div>
       </div>
     </footer>

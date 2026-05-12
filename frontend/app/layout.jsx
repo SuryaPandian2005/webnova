@@ -7,16 +7,59 @@ import Footer from '../components/layout/Footer';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata = {
-  title: 'WebNova ',
-  description: 'We design and develop high-quality websites for businesses, startups, portfolios, and online stores with modern UI/UX and responsive performance.',
-  keywords: 'website builder, AI website, web development, portfolio, ecommerce, SaaS',
+  title: "TechKidyy | Modern Website Development",
+
+  description:
+    "We design and develop high-quality websites for businesses, startups, portfolios, and online stores with modern UI/UX and responsive performance.",
+
+  keywords: [
+    "TechKidyy",
+    "website builder",
+    "AI website",
+    "web development",
+    "portfolio website",
+    "ecommerce website",
+    "SaaS platform",
+    "React website",
+    "Next.js development",
+  ],
+
   icons: {
-  icon: '/logo.png',
-   },
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
+
   openGraph: {
-    title: 'WebNova — Professional Website Development Platform',
-    description: 'Create stunning, professional websites for your business and portfolio',
-    type: 'website',
+    title: "TechKidyy — Professional Website Development Platform",
+
+    description:
+      "Create stunning, modern, and responsive websites for businesses, startups, portfolios, and online stores.",
+
+    url: "https://techkidyy.com",
+
+    siteName: "TechKidyy",
+
+    images: [
+      {
+        url: "/logo.png",
+        width: 512,
+        height: 512,
+        alt: "TechKidyy Logo",
+      },
+    ],
+
+    locale: "en_US",
+
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "TechKidyy",
+    description:
+      "Modern website development and AI-powered digital solutions.",
+    images: ["/logo.png"],
   },
 };
 

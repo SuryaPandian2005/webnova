@@ -53,7 +53,7 @@ export default function LoginPage() {
               <Zap className="w-6 h-6 text-white" />
             </div>
             <h1 className="text-2xl font-bold text-white mb-1">Welcome back</h1>
-            <p className="text-gray-400 text-sm">Sign in to your WebNova account</p>
+            <p className="text-gray-400 text-sm">Sign in to your TechKidyy account</p>
           </div>
 
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
