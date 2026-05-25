@@ -354,6 +354,163 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* SEO CONTENT */}
+      <section className="py-24 relative">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-6">
+              Professional Website <span className="gradient-text">Development Services</span> 
+            </h2>
+
+            <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
+              TechKidyy provides modern website development services
+              for startups, businesses, creators, ecommerce brands,
+              restaurants, agencies, and SaaS companies.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-10">
+
+            <div className="glass-card">
+              <h3 className="text-2xl font-bold mb-4">
+                Modern Responsive Websites
+              </h3>
+
+              <p className="text-gray-400 leading-relaxed mb-4">
+                We develop high-performance responsive websites using
+                Next.js, React, Tailwind CSS, and modern frontend
+                technologies optimized for speed, SEO, and user experience.
+              </p>
+
+              <p className="text-gray-400 leading-relaxed">
+                Every website is designed to work perfectly on
+                mobile devices, tablets, laptops, and large displays.
+              </p>
+            </div>
+
+            <div className="glass-card">
+              <h3 className="text-2xl font-bold mb-4">
+                SEO & Performance Optimization
+              </h3>
+
+              <p className="text-gray-400 leading-relaxed mb-4">
+                Our websites are optimized with advanced SEO strategies,
+                schema markup, sitemap generation, Open Graph tags,
+                canonical URLs, and performance enhancements.
+              </p>
+
+              <p className="text-gray-400 leading-relaxed">
+                We focus on improving Google rankings, PageSpeed scores,
+                and AI search visibility across modern search engines.
+              </p>
+            </div>
+
+            <div className="glass-card">
+              <h3 className="text-2xl font-bold mb-4">
+                AI-Powered Digital Solutions
+              </h3>
+
+              <p className="text-gray-400 leading-relaxed mb-4">
+                TechKidyy builds AI-powered applications, dashboards,
+                automations, and smart business tools for modern brands.
+              </p>
+
+              <p className="text-gray-400 leading-relaxed">
+                We integrate advanced technologies to help businesses
+                improve workflows, automation, and customer experiences.
+              </p>
+            </div>
+
+            <div className="glass-card">
+              <h3 className="text-2xl font-bold mb-4">
+                Ecommerce & Business Platforms
+              </h3>
+
+              <p className="text-gray-400 leading-relaxed mb-4">
+                We create scalable ecommerce websites and business
+                platforms with secure authentication, payment systems,
+                dashboards, analytics, and modern UI/UX design.
+              </p>
+
+              <p className="text-gray-400 leading-relaxed">
+                Our goal is to build fast, scalable, and conversion-focused
+                digital platforms for growing businesses.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ SECTION */}
+      <section className="py-24 relative">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-6">
+              Frequently Asked <span className="gradient-text">Questions</span>
+            </h2>
+
+            <p className="text-gray-400">
+              Everything you need to know about TechKidyy services.
+            </p>
+          </div>
+
+          <div className="space-y-8">
+
+            <div className="glass-card">
+              <h3 className="text-2xl font-semibold mb-3">
+                What services does TechKidyy provide?
+              </h3>
+
+              <p className="text-gray-400 leading-relaxed">
+                TechKidyy provides website development, ecommerce
+                solutions, AI integrations, dashboard development,
+                SEO optimization, and responsive digital experiences.
+              </p>
+            </div>
+
+            <div className="glass-card">
+              <h3 className="text-2xl font-semibold mb-3">
+                Do you build ecommerce websites?
+              </h3>
+
+              <p className="text-gray-400 leading-relaxed">
+                Yes. We develop scalable ecommerce platforms with
+                secure payment integration, responsive UI, analytics,
+                and SEO optimization.
+              </p>
+            </div>
+
+            <div className="glass-card">
+              <h3 className="text-2xl font-semibold mb-3">
+                Are your websites SEO optimized?
+              </h3>
+
+              <p className="text-gray-400 leading-relaxed">
+                Absolutely. Every website includes SEO optimization,
+                schema markup, Open Graph metadata, sitemap generation,
+                canonical URLs, and performance optimization.
+              </p>
+            </div>
+
+            <div className="glass-card">
+              <h3 className="text-2xl font-semibold mb-3">
+                Which technologies do you use?
+              </h3>
+
+              <p className="text-gray-400 leading-relaxed">
+                We use Next.js, React, Tailwind CSS, Node.js,
+                MongoDB, AI APIs, and modern cloud technologies
+                for scalable development.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-24 relative">
         <div className="blob blob-indigo w-[500px] h-[500px] left-1/4 top-0 opacity-15" />

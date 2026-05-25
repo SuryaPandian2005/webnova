@@ -1,0 +1,12 @@
+# TechKidyy
+
+> Modern AI-powered website development platform.
+
+Website: https://techkidyy-sigma.vercel.app
+
+Services:
+- Website Development
+- AI Solutions
+- SEO Optimization
+- Branding
+- Dashboard Development

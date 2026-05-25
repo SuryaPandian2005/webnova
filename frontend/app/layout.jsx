@@ -9,13 +9,17 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 export const metadata = {
   metadataBase: new URL("https://techkidyy-sigma.vercel.app"),
 
+  alternates: {
+  canonical: "https://techkidyy-sigma.vercel.app",
+},
+
   title: {
     default: "TechKidyy | Modern Website Development",
     template: "%s | TechKidyy",
   },
 
   description:
-    "TechKidyy designs and develops high-quality websites, AI applications, dashboards, portfolios, ecommerce platforms, and responsive digital solutions for startups, businesses, and creators.",
+  "TechKidyy builds modern websites, AI solutions, ecommerce platforms, dashboards, and responsive digital experiences for businesses and creators.",
 
   keywords: [
     "TechKidyy",
@@ -32,6 +36,14 @@ export const metadata = {
     "ecommerce website",
     "frontend developer",
     "digital solutions",
+    "SEO services",
+    "AI automation",
+    "web design company",
+    "Next.js website",
+    "business website development",
+    "frontend development",
+    "digital branding",
+    "professional portfolio website",
   ],
   
   verification: { google: "Gc8LlbP0tWas1dSephZmbTPSYnzLSGnG0vgpXNf6nd4", },
@@ -68,7 +80,7 @@ export const metadata = {
 
     images: [
       {
-        url: "/logo.png",
+        url: "/favicon.ico",
         width: 1200,
         height: 630,
         alt: "TechKidyy",
@@ -88,18 +100,58 @@ export const metadata = {
     description:
       "Modern websites and AI-powered digital solutions for startups and businesses.",
 
-    images: ["/logo.png"],
+    images: ["/favicon.ico"],
 
     creator: "@techkidyy",
   },
 
   category: "technology",
+  icons: {
+  icon: "/favicon.ico",
+  shortcut: "/favicon.ico",
+  apple: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={inter.variable}>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "TechKidyy",
+              url: "https://techkidyy-sigma.vercel.app",
+              logo: "https://techkidyy-sigma.vercel.app/logo.png",
+              description:
+                "TechKidyy provides modern website development and AI-powered digital solutions.",
+              sameAs: [
+                "https://instagram.com/techkidyy",
+                "https://linkedin.com/company/techkidyy",
+              ],
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "TechKidyy",
+              image: "https://techkidyy-sigma.vercel.app/logo.png",
+              url: "https://techkidyy-sigma.vercel.app",
+              telephone: "+91 12345 67890",
+              address: {
+                "@type": "PostalAddress",
+                addressCountry: "IN",
+              },
+            }),
+          }}
+        />
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
@@ -118,6 +170,19 @@ export default function RootLayout({ children }) {
             },
             success: { iconTheme: { primary: '#10b981', secondary: '#022c22' } },
             error: { iconTheme: { primary: '#ef4444', secondary: '#450a0a' } },
+          }}
+        />
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9M73WJBZC9"></script>
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-9M73WJBZC9');
+            `,
           }}
         />
       </body>
